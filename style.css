@@ -24,35 +24,27 @@ p{
     min-width: fit-content;
     border-radius: 10px;
     background-color: hsl(244, 38%, 16%);
-    margin: 1rem;
+    margin-top: 1rem;
+    margin-left: 1em;
+    margin-right: 1rem;
+    margin-bottom: 0px;
 }
 
 .figure{
-    position: relative;
-    max-width: 100%;
-}
-.image{
+    background: url(./images/image-header-mobile.jpg);
+    height: 220px;
+    width: 300px;
+    border-radius: 10px 10px 0px 0px;
+    /* overflow: hidden; */
     max-width: 340px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px ;
-    z-index: 100;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-
 .opacity{
     background-color: hsl(277, 64%, 61%);
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px ;
-    margin-bottom: 2px;
-    object-fit: contain;
-    opacity: 0.6;
+    height: 100%;
+    opacity: 50%;
 }
 .content h2{
     text-align: center;
@@ -100,17 +92,11 @@ p{
     .contentout p{
         margin-left: 0rem;
     }
-    .image{
+    .figure{
         min-width: 450px;
-        height: 352px;
-        border-top-left-radius: 0px;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px ;
-    }
-    .opacity{
-        border-top-left-radius: 0px;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px ;
+        height: 325px;
+        border-radius: 0px 10px 10px 0;
+        background: url(./images/image-header-desktop.jpg) no-repeat;
     }
     .ig {
         display: none;
